@@ -32,7 +32,7 @@ const userSchema = new mongoose.Schema({
         default: "CUSTOMER",
         enum: ["CUTOMER", "ADMIN"] 
     }
-}, {timestamp: true});
+}, {timestamps: true});
 
 /**
  * Define the collection name where it will be stored
